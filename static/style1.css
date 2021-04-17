@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #eeeeee;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+.nombre{
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.language{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    
+    width:150px;
+}
+select{
+    width:150px;
+}
+textarea{
+    width: 250px;
+}
+
+.boton{
+    margin-top: 10px;
+    display:flex;
+    justify-content: flex-end;
+}
+.boton input{
+    background-color: cornflowerblue;
+    width: auto;   
+
+}

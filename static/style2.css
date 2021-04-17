@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #eeeeee;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+table{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+th{
+    margin-right: 80px;
+}
+.boton{
+    margin-top: 10px;
+    display:flex;
+    justify-content: flex-end;
+}
+.boton button{
+    background-color: cornflowerblue;
+    width: auto;   
+}
